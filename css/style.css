@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: black;
 }
 
 .inline-block {
@@ -101,12 +102,12 @@ h1 {
 
 
 .mySkills{
-    background-color: white;
+    background-color: black;
     height: 850px;
 }
 .flexContainer {
 display: flex;
-background-color: white;
+background-color: black;
 
 }
 
@@ -142,6 +143,7 @@ background-color: white;
 .skillsItem{
     width: 33%;
     margin: 20px;
+    background-color: white;
 }
 
 .skillTitle {
@@ -154,14 +156,22 @@ background-color: white;
 
 .projectTitle{
     font-weight: bold;
+    color: white;
 }
 
+.WorkSummary {
+    color: white;
+}
 
 /*My Work Page */
 
 h4 {
     margin-top: 0%;
     font-weight: bold;
+}
+
+.myWork {
+    background-color: black;
 }
 
 #DHSimage{
@@ -171,7 +181,9 @@ h4 {
 #DHS{
     grid-area: DHStext;
     vertical-align: top;
+    
 }
+
 
 #GWCCimage{
     grid-area: GWCCpic;    
